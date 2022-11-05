@@ -21,7 +21,7 @@
   gap: 8px;
 }
 
-.form__label_type_checkbox {
+.form__label_checkbox_flex {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;

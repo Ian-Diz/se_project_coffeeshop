@@ -50,7 +50,7 @@
   margin: 0;
 }
 
-.header__paragraph_hours {
+.header__paragraph_left {
   position: absolute;
   left: 0;
   bottom: 40px;
@@ -62,7 +62,7 @@
   box-sizing: border-box;
 }
 
-.header__paragraph_address {
+.header__paragraph_right {
   position: absolute;
   right: 80px;
   bottom: 40px;
