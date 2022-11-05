@@ -7,6 +7,7 @@
   max-height: 800px;
   height: 100vh;
   position: relative;
+  z-index: 1;
 }
 
 .header__title {
@@ -23,17 +24,16 @@
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
-  font-size: 60px;
-  line-height: 72px;
   color: #2f8bed;
   display: block;
 }
 
 .header__description {
-  margin: 28px 0 0 80px;
-  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 30px;
+  margin: 28px 0 0 80px;
+  max-width: 683px;
 }
 
 .header__image {
@@ -41,10 +41,7 @@
   right: 5px;
   top: 124px;
   width: 646px;
-}
-
-.header__empty {
-  height: 200px;
+  z-index: -1;
 }
 
 .header__paragraph {
@@ -53,7 +50,7 @@
   margin: 0;
 }
 
-.header__paragraph-hours {
+.header__paragraph_hours {
   position: absolute;
   left: 0;
   bottom: 40px;
@@ -65,13 +62,9 @@
   box-sizing: border-box;
 }
 
-.header__paragraph-hours-text {
-  margin: 0;
-}
-
-.header__paragraph-address {
+.header__paragraph_address {
   position: absolute;
   right: 80px;
-  bottom: 0;
+  bottom: 40px;
   margin: 0;
 }

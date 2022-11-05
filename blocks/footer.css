@@ -36,6 +36,10 @@
   margin: 0 0 16px 0;
 }
 
+.footer__list-item:last-child {
+  margin: 0;
+}
+
 .footer__social-icon {
   height: 16px;
   width: 16px;
@@ -51,7 +55,7 @@
 }
 
 .footer__copyright {
-  margin: 100px 0 0 80px;
+  margin: 108px 0 0 80px;
   font-size: 16px;
   line-height: 20px;
   padding-bottom: 60px;
