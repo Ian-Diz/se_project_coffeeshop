@@ -1,0 +1,76 @@
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  margin: 0;
+  min-height: 720px;
+  max-height: 800px;
+  height: 100vh;
+  position: relative;
+}
+
+.header__title {
+  margin-left: 80px;
+  max-width: 729px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top: 202px;
+  margin-bottom: 0;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f8bed;
+}
+
+.header__description {
+  margin: 28px 0 0 80px;
+  max-width: 683px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.header__image {
+  position: absolute;
+  right: 5px;
+  top: 124px;
+  width: 646px;
+}
+
+.header__empty {
+  height: 200px;
+}
+
+.header__paragraph {
+  font-weight: 500;
+  color: #6f6f6f;
+  margin: 0;
+}
+
+.header__paragraph-hours {
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px 0;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.header__paragraph-hours_text {
+  margin: 0;
+}
+
+.header__paragraph-address {
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+  margin: 0;
+}
