@@ -44,27 +44,21 @@
   z-index: -1;
 }
 
-.header__paragraph {
-  font-weight: 500;
-  color: #6f6f6f;
-  margin: 0;
-}
-
-.header__paragraph_left {
+.header__paragraphs {
   position: absolute;
   left: 0;
   bottom: 40px;
   width: 100%;
   display: flex;
-  flex-direction: column;
   padding: 40px 80px 0;
+  margin: 0;
   justify-content: space-between;
   box-sizing: border-box;
+  align-items: flex-end;
 }
 
-.header__paragraph_right {
-  position: absolute;
-  right: 80px;
-  bottom: 40px;
+.header__paragraph {
+  font-weight: 500;
+  color: #6f6f6f;
   margin: 0;
 }
